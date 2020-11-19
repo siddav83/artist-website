@@ -1,35 +1,48 @@
-const path = require('path')
-const webpack = require('webpack')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+const ROOT_DIRECTORY = path.join(__dirname, './'); // the root of your project
+const PUBLIC_DIRECTORY = path.join(ROOT_DIRECTORY, 'public'); // the root of the frontend, i.e. html file
 
-module.exports = {
-  entry: './src/index.js',
+const config = {
+  entry: [path.resolve(__dirname, './src/index.js')], // the main JavaScript file of the project
   output: {
-    path: path.resolve('dist'),
-    filename: 'bundle.js'
+    // instructions for compiling the code
+    path: path.resolve(__dirname, './dist'), // the file where the compiled code should go
+    filename: 'bundle.js', // the file name of the compiled code
+    publicPath: '/', // specifies the base path for all the assets within your application.
   },
-  devtool: 'source-maps',
-  module: {
-    rules: [
-      { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
-      { test: /\.s(a|c)ss$/, loader: ['style-loader', 'css-loader', 'sass-loader'] }
-    ]
+  mode: 'development', // tells webpack to use its built-in optimizations according to the mode
+  resolve: {
+    // instructions on how to resolve modules
+    modules: [path.resolve('node_modules'), 'node_modules'], // tells webpack where to look for node_modules
   },
-  devServer: {
-    contentBase: path.resolve('src'),
-    hot: true,
-    open: true,
-    port: 8000,
-    watchContentBase: true
+  performance: {
+    // notifies you if assets and entry points exceed a specific file limit
+    hints: false,
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
+    // plugins we are using to help with compiling
     new HtmlWebpackPlugin({
-      template: 'public/index.html',
-      filename: 'index.html',
-      inject: 'body'
-    })
-  ]
-}
+      // used to add the JavaScript code to the HTML
+      template: path.join(PUBLIC_DIRECTORY, 'index.html'),
+    }),
+  ],
+  module: {
+    // helpers we want webpack to use
+    rules: [
+      // specific instructions for each helper
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }, // transpile JavaScript files
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      }, // transpile css files
+      {
+        test: /\.(png|svg|jpg|gif|pdf)$/,
+        use: ['file-loader'],
+      }, // transpile image files
+    ],
+  },
+};
+
+module.exports = config;
