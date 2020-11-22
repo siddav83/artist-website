@@ -13,5 +13,5 @@
 
 ## Bonus
 
-- Style your website.
+- Style your website:
   https://reactjs.org/docs/faq-styling.html
