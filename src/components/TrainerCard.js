@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class TrainerCard extends Component {
   state = {
+    trainerName: 'Michael',
     pokemonCaught: 2,
   };
 
@@ -14,7 +15,7 @@ class TrainerCard extends Component {
   render() {
     return (
       <div>
-        <h2>Michael</h2>
+        <h2>{this.state.trainerName}</h2>
         <h3>Pokemon Trainer</h3>
         <h3>Kanto Region</h3>
         <h3>Pokemon Caught: {this.state.pokemonCaught}</h3>
