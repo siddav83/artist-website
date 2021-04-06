@@ -1,6 +1,6 @@
 ### Study Notes
 
-[Intro to React](https://github.com/getfutureproof/fp_guides_wiki/wiki/Intro-to-React)
+| [Intro to Webpack](https://github.com/getfutureproof/fp_study_notes_intro_to_webpack) | [Intro to React](https://github.com/getfutureproof/fp_guides_wiki/wiki/Intro-to-React) | [Deploy a React client with Netlify](https://github.com/getfutureproof/fp_guides_wiki/wiki/React-Deploy-with-Netlify) |
 
 # Exercises
 
@@ -9,9 +9,8 @@
   - Install the required libraries
   - Using JSX make your website a portfolio of their work. The site should be broken down into components that are rendered on the same page. It should contain at the very minimum two components. An example would be:
     - Their name, music type and an introduction paragraph.
-    - A list of their songs/albums including name,release date and cover art. \
+    - A list of their songs/albums including name,release date and cover art.
 
 ## Bonus
-
-- Style your website:
-  https://reactjs.org/docs/faq-styling.html
+- Build & [deploy](https://github.com/getfutureproof/fp_guides_wiki/wiki/React-Deploy-with-Netlify) your React app
+- Have a go at [styling your app](https://reactjs.org/docs/faq-styling.html)
