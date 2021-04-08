@@ -5,10 +5,10 @@ const ROOT_DIRECTORY = path.join(__dirname, '../'); // the root of your project
 const PUBLIC_DIRECTORY = path.join(ROOT_DIRECTORY, 'public'); // the root of the frontend, i.e. html file
 
 const config = {
-  entry: [path.resolve(__dirname, '../src/index.js')], // the main JavaScript file of the project
+  entry: [path.resolve(ROOT_DIRECTORY, 'src/index.js')], // the main JavaScript file of the project
   output: {
     // instructions for compiling the code
-    path: path.resolve(__dirname, './dist'), // the file where the compiled code should go
+    path: path.resolve(ROOT_DIRECTORY, 'build'), // the file where the compiled code should go
     filename: 'bundle.js', // the file name of the compiled code
     publicPath: '/', // specifies the base path for all the assets within your application.
   },
