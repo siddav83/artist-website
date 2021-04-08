@@ -10,6 +10,8 @@
   - Using JSX make your website a portfolio of their work. The site should be broken down into components that are rendered on the same page. It should contain at the very minimum two components. An example would be:
     - Their name, music type and an introduction paragraph.
     - A list of their songs/albums including name,release date and cover art.
+  
+**_NB: Do not consume any APIs to get the data on your chosen artist - hard code for now!_**
 
 ## Bonus
 - Build & [deploy](https://github.com/getfutureproof/fp_guides_wiki/wiki/React-Deploy-with-Netlify) your React app
