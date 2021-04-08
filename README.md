@@ -1,6 +1,6 @@
 ### Study Notes
 
-| [Intro to Webpack](https://github.com/getfutureproof/fp_study_notes_intro_to_webpack) | [Intro to React](https://github.com/getfutureproof/fp_guides_wiki/wiki/Intro-to-React) | [Deploy a React client with Netlify](https://github.com/getfutureproof/fp_guides_wiki/wiki/React-Deploy-with-Netlify) |
+| [Webpack Setup](https://github.com/getfutureproof/fp_guides_wiki/wiki/Intro-to-Module-Bundlers-and-Webpack) | [Intro to React](https://github.com/getfutureproof/fp_guides_wiki/wiki/Intro-to-React) | [Deploy a React client with Netlify](https://github.com/getfutureproof/fp_guides_wiki/wiki/React-Deploy-with-Netlify) |
 
 # Exercises
 
