@@ -19,7 +19,7 @@
     "style-loader": "^2.0.0",
     "webpack": "^5.5.1",
     "webpack-cli": "^4.2.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "@babel/core": "^7.12.3",
