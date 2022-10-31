@@ -17,6 +17,7 @@ const Albums = () => {
     }
 
     return (
+        <>
         <table style={{ border: "2px solid black", width: "60vw", textAlign: "center", margin: "auto" }}>
         <thead>
             <tr>
@@ -29,6 +30,7 @@ const Albums = () => {
             { renderRows() }
         </tbody>
         </table>
+        </>
     );
 };
 
