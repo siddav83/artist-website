@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import artistData from '../data';
 
 const Artist = () => {
   const [ artistName, setArtistName ] = useState('Lana Del Rey');
@@ -15,6 +16,8 @@ const Artist = () => {
   const decrement = () => {
     setCounter(prev => prev - 1)
   }
+
+  // artistData.map(artist => artist)
 
   return (
     <div style={divStyle}>
