@@ -13,7 +13,7 @@ const Albums = () => {
     ])
 
     const renderRows = () => {
-        return album.map(p => <tr><td style={{ border: "1px solid black"}}>{p.name}</td><td style={{ border: "1px solid black"}}><img src={p.img} width='300' /></td><td style={{ border: "1px solid black"}}>{p.date}</td></tr>)
+        return album.map((p,i) => <tr><td style={{ border: "1px solid black"}}>{p.name}</td><td style={{ border: "1px solid black"}}><img  src={p.img} width='300' /></td><td style={{ border: "1px solid black"}}>{p.date}</td></tr>)
     }
 
     return (
