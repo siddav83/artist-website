@@ -6,6 +6,15 @@ const Artist = () => {
     color: 'blue',
     
   };
+  const [ counter, setCounter ] = useState(0);
+
+  const increment = () => {
+    setCounter(prev => prev + 1)
+  }
+
+  const decrement = () => {
+    setCounter(prev => prev - 1)
+  }
 
   return (
     <div style={divStyle}>
@@ -14,8 +23,12 @@ const Artist = () => {
       <h3>Intro</h3>
       <p>Elizabeth Woolridge Grant (born June 21, 1985), known professionally as Lana Del Rey, is an American singer-songwriter. Her music is noted for its cinematic quality and exploration of tragic romance, glamour, and melancholia, containing references to contemporary pop culture and 1950s–1960s Americana.</p>
       <a href="https://www.lanadelrey.com/" target="_blank" rel="noreferrer">read more</a>
+      <br></br>
+      <br></br>
       {/* <button onClick={increasePokemonCount}> */}
-
+      <button onClick={increment}>Like</button>
+      <p>{ counter }</p>
+      <button onClick={decrement}>Dislike</button>
       {/* </button> */}
     </div>
   );
