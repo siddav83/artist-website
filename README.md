@@ -17,3 +17,4 @@
 - Build & [deploy](https://github.com/getfutureproof/fp_guides_wiki/wiki/React-Deploy-with-Netlify) your React app
 - Have a go at [styling your app](https://reactjs.org/docs/faq-styling.html)
 # artist-website
+# artist-website
