@@ -11,10 +11,19 @@ import Artist from './Artist';
 describe("Artist component", () => {
 
     beforeEach(() => {
-        render(<Artist/>)
+        render(<Artist name='Test Artist' description='Test Description'/>)
     })
 
-    it("Displays a heading with the appropriate text", () =>{
+    it("Title displays artist name", () =>{
+        const heading = screen.getByRole("heading");
+        expect(heading).toBeInTheDocument();
+        expect(heading.textContent).toBe("Test Artist");
+    })
+
+    it("Paragraph displays artist description", () =>{
+        const desc = screen.getByRole('paragraph');
+        expect(desc).toBeInTheDocument();
+        expect(desc.textContent).toBe("Test Description");
     })
 
 })
