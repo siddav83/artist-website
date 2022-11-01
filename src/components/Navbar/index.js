@@ -8,7 +8,7 @@ const Navbar = () => {
                 <a href="/">Home</a>
             </div>
         </nav>
-     );
+    );
 }
- 
+
 export default Navbar;

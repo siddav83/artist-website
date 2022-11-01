@@ -6,7 +6,7 @@ import '@testing-library/jest-dom';
 import { screen, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import Albums from './Albums';
+import Albums from '../components/Albums/index';
 describe("Albums component", () => {
 
     beforeEach(() => {

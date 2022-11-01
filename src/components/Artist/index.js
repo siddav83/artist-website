@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import artistData from '../data';
+import artistData from '../../data';
 
 const Artist = ({name, description}) => {
   const [ artistName, setArtistName ] = useState(name);

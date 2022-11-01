@@ -1,8 +1,6 @@
 
 import React from 'react';
-import Artist from './components/Artist';
-import Albums from './components/Albums';
-import Navbar from './components/Navbar';
+import { Artist, Albums, Navbar } from './components'
 
 function App() {
   return (
