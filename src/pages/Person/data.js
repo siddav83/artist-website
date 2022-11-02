@@ -13,6 +13,22 @@ const data = {
             { name: 'Paradise', img: "https://upload.wikimedia.org/wikipedia/en/6/6a/Paradise_EP.png", date: 2012 },
             { name: 'Born To Die', img: "https://m.media-amazon.com/images/I/71v9YKQxm2L._AC_SL1400_.jpg", date: 2012 }
         ]
+    },
+    'robyn': {
+        name: 'Robyn',
+        description: 'Robin Miriam Carlsson (born 12 June 1979), known as Robyn, is a Swedish pop singer, songwriter, record producer, and DJ. Robyn helped shape contemporary pop music by taking creative control, introducing indie elements to mainstream pop, and including feminist and other political themes in her music long before it became acceptable for popstars to do so, with Variety attributing her work as a savant and pioneer in the accelerated rise of the alternative-pop genre starting in the late 2000s. She has been recognized as an important influence by Carly Rae Jepsen, Lorde, Taylor Swift, and Christine and the Queens.',
+        link: 'https://robyn.com/',
+        album: [
+            { name: 'Honey', img: "https://upload.wikimedia.org/wikipedia/en/e/ee/RobynHoney.png", date: 2018 },
+            { name: 'Do It Again', img: "https://upload.wikimedia.org/wikipedia/en/6/6d/R%C3%B6yksopp_and_Robyn_-_Do_It_Again.png", date: 2014 },
+            { name: 'Body Talk Pt.2', img: "https://upload.wikimedia.org/wikipedia/en/a/a4/Body_Talk_Pt._2_by_Robyn.png", date: 2010 },
+            { name: 'Body Talk Pt.1', img: "https://upload.wikimedia.org/wikipedia/en/e/ef/Robyn_Bodytalk_1.jpg", date: 2010 },
+            { name: 'Body Talk', img: "https://upload.wikimedia.org/wikipedia/en/c/cd/Body_Talk_by_Robyn.png", date: 2010 },
+            { name: 'Robyn', img: "https://upload.wikimedia.org/wikipedia/en/a/a4/Robyn_-_Robyn.png", date: 2005 },
+            { name: 'Don\'t Stop the Music', img: "https://upload.wikimedia.org/wikipedia/en/a/ac/RobynDon%27tStopTheMusic.jpg", date: 2002 },
+            { name: 'My Truth', img: "https://robyn.com/wp-content/uploads/2018/08/0001188899.jpg", date: 1999 },
+            { name: 'Robyn Is Here', img: "https://i.scdn.co/image/ab67616d0000b2732dbf3c8a92b1af1942918ad0", date: 1995 }
+        ]
     }
 }
 
