@@ -11,7 +11,10 @@ const Albums = ({album}) => {
 
     return (
         <>
-        <table style={{ border: "2px solid black", width: "60vw", textAlign: "center", margin: "auto", borderCollapse: 'collapse' }}>
+        <table style={{ 
+            width: "60vw",
+            textAlign: "center", 
+            margin: "auto"  }}>
         <thead>
             <tr>
             <th style={{ border: "1px solid black"}}>Name</th>
