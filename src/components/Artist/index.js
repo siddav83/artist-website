@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import artistData from '../../data';
 
+import './style.css'
+
 const Artist = ({name, description, link}) => {
   const [ artistName, setArtistName ] = useState(name);
   const [ artistDescription, setArtistDescription ] = useState(description);
@@ -21,15 +23,15 @@ const Artist = ({name, description, link}) => {
   }
 
   return (
-    <div style={divStyle}>
-      <h2>{artistName}</h2>
+    <div className='main'>
+      <h1>{artistName}</h1>
       <p role='paragraph'>{artistDescription}</p>
       <a href={artistLink} target="_blank" rel="noreferrer">Read More</a>
-      <br></br>
-      <br></br>
-      <button onClick={increment}>Like</button>
-      <p>{ counter }</p>
-      <button onClick={decrement}>Dislike</button>
+      <div className='likesCounter'>
+        <button onClick={increment}>Like</button>
+        <p>{ counter }</p>
+        <button onClick={decrement}>Dislike</button>
+      </div>
     </div>
   );
 }
