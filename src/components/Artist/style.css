@@ -16,6 +16,10 @@
     text-align: right;
 }
 
+.main > a:hover {
+    font-weight: bold;
+}
+
 .likesCounter {
     display: flex;
     justify-content: center;
@@ -39,4 +43,5 @@
 .likesCounter > button:hover {
     box-shadow: none;
     background-color: white;
+    font-weight: bold;
 }
