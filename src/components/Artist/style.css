@@ -30,6 +30,7 @@
     text-align: center;
     font-size: 120%;
     padding: 0 20px;
+    margin: 5px;
 }
 
 .likesCounter > button {
