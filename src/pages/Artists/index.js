@@ -8,6 +8,8 @@ export default function Artist() {
       <br/>
       <NavLink to='lana'>Lana Del Rey</NavLink>
       <br/>
+      <NavLink to='robyn'>Robyn</NavLink>
+      <br/>
       <Outlet />
     </>
   )

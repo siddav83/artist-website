@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 23px;
+    font-family: "Quicksand", sans-serif;
+    background-color: white;
+}
+
+.main > a {
+    text-align: right;
+}
+
+.main > a:hover {
+    font-weight: bold;
+}
+
+.likesCounter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.likesCounter > p {
+    text-align: center;
+    font-size: 120%;
+    padding: 0 20px;
+    margin: 5px;
+}
+
+.likesCounter > button {
+    width: 15%;
+    font-size: 120%;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    background-color: rgb(217, 189, 179);
+}
+
+.likesCounter > button:hover {
+    box-shadow: none;
+    font-weight: bold;
+}

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './style.css'
+
 const Albums = ({album}) => {
     const [albumName, setAlbum] = useState(album)
 
@@ -9,12 +11,15 @@ const Albums = ({album}) => {
 
     return (
         <>
-        <table style={{ border: "2px solid black", width: "60vw", textAlign: "center", margin: "auto" }}>
+        <table style={{ 
+            width: "60vw",
+            textAlign: "center", 
+            margin: "auto"  }}>
         <thead>
             <tr>
-            <th style={{ border: "2px solid black"}}>Name</th>
-            <th style={{ border: "2px solid black"}}>Cover Art</th>
-            <th style={{ border: "2px solid black"}}>Release Date</th>
+            <th style={{ border: "1px solid black" }}>Name</th>
+            <th style={{ border: "1px solid black"}}>Cover Art</th>
+            <th style={{ border: "1px solid black"}}>Release Date</th>
             </tr>
         </thead>
         <tbody>
