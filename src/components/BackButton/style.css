@@ -1,0 +1,25 @@
+.icon {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+
+svg {
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 7px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: 0;
+    position: relative;
+    right: 500px;
+}
+
+button:hover {
+    background-color: pink;
+}

@@ -1,9 +1,24 @@
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     list-style: none;
 }
 
-.current {
-    color: hotpink;
+a {
+    text-decoration: none;
+    padding: 17px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 10px;
 }
+
+a:hover {
+    background-color: pink;
+}
+
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+

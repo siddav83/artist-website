@@ -2,6 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import BackButton from '../../components/BackButton';
 
+
+
 import './style.css'
 
 export default function Header() {
@@ -12,6 +14,7 @@ export default function Header() {
     <>
     <div className="header">
     <BackButton />
+
         <ul>
           <li><NavLink className={activeClass} to='/'>Home</NavLink></li>
           <li><NavLink className={activeClass} to='/artists'>Artists</NavLink></li>
