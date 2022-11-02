@@ -10,13 +10,23 @@ export default function Header() {
 
   return (
     <>
-
-      <ul>
-        <li><NavLink className={activeClass} to='/'>Home</NavLink></li>
-        <li><NavLink className={activeClass} to='/artists'>Artists</NavLink></li>
-      </ul>
-      <BackButton />
-
+    <div className="header">
+    <BackButton />
+        <ul>
+          <li><NavLink className={activeClass} to='/'>Home</NavLink></li>
+          <li><NavLink className={activeClass} to='/artists'>Artists</NavLink></li>
+        </ul>
+      
+      </div>
     </>
   )
 }
+
+// return ( 
+//   <nav className="navbar">
+//       <h1>Lana Del Rey</h1>
+//       <div className="links">
+//           <a href="/">Home</a>
+//       </div>
+//   </nav>
+// );

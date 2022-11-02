@@ -9,7 +9,6 @@ function App() {
   return (
     
     <main>
-      <Navbar />
       <Header />
       <Routes>
         <Route path='/' element={<Home />}></Route>
