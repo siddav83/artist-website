@@ -6,7 +6,7 @@ export default function Artist() {
     <>
       <h1>List of Artists</h1>
       <br/>
-      <NavLink to='Lana'>Lana</NavLink>
+      <NavLink to='lana'>Lana Del Rey</NavLink>
       <br/>
       <Outlet />
     </>
