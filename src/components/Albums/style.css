@@ -19,6 +19,14 @@ table tr:last-child th:last-child {
     border-top-right-radius: 10px;
 }
 
+table th {
+    background-color: white;
+}
+
+table tr {
+    background-color: white;
+}
+
 table tr:hover {
-    background-color: rgb(217, 189, 179);
+    background-color: rgb(222, 222, 222);
 }

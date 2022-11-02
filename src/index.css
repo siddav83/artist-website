@@ -6,6 +6,10 @@
     color: #333;
 }
 
+body {
+    background-color: rgb(217, 189, 179);
+}
+
     .header {
         padding: 20px;
         display: flex;

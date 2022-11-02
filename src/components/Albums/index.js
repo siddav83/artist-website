@@ -17,7 +17,7 @@ const Albums = ({album}) => {
             margin: "auto"  }}>
         <thead>
             <tr>
-            <th style={{ border: "1px solid black"}}>Name</th>
+            <th style={{ border: "1px solid black" }}>Name</th>
             <th style={{ border: "1px solid black"}}>Cover Art</th>
             <th style={{ border: "1px solid black"}}>Release Date</th>
             </tr>

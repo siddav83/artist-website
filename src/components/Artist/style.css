@@ -10,6 +10,7 @@
     border-radius: 10px;
     padding: 23px;
     font-family: "Quicksand", sans-serif;
+    background-color: white;
 }
 
 .main > a {
@@ -44,6 +45,5 @@
 
 .likesCounter > button:hover {
     box-shadow: none;
-    background-color: white;
     font-weight: bold;
 }
