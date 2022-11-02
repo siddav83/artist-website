@@ -1,7 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { NavLink, Outlet } from 'react-router-dom';
 
-export default function Artists() {
+export default function Artist() {
   return (
-    <div>Artists</div>
+    <>
+      <h1>List of Artists</h1>
+      <br/>
+      <NavLink to='Lana'>Lana</NavLink>
+      <br/>
+      <Outlet />
+    </>
   )
 }
