@@ -18,3 +18,7 @@ table tr:last-child th:first-child {
 table tr:last-child th:last-child {
     border-top-right-radius: 10px;
 }
+
+table tr:hover {
+    background-color: rgb(217, 189, 179);
+}
