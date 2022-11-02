@@ -11,7 +11,7 @@ export default function Person() {
     return (
         <>
 
-        < Artist name={data[artistName].name} description={data[artistName].description} />
+        < Artist name={data[artistName].name} description={data[artistName].description} link={data[artistName].link} />
         < Albums album={data[artistName].album} />
 
         </>

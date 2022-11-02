@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import artistData from '../../data';
 
-const Artist = ({name, description}) => {
+const Artist = ({name, description, link}) => {
   const [ artistName, setArtistName ] = useState(name);
   const [ artistDescription, setArtistDescription ] = useState(description);
+  const [ artistLink, setArtistLink ] = useState(link);
 
   const divStyle = {
     color: 'blue',
@@ -19,13 +20,11 @@ const Artist = ({name, description}) => {
     setCounter(prev => prev - 1)
   }
 
-  // artistData.map(artist => artist)
-
   return (
     <div style={divStyle}>
       <h2>{artistName}</h2>
       <p role='paragraph'>{artistDescription}</p>
-      <a href="https://www.lanadelrey.com/" target="_blank" rel="noreferrer">read more</a>
+      <a href={artistLink} target="_blank" rel="noreferrer">Read More</a>
       <br></br>
       <br></br>
       <button onClick={increment}>Like</button>

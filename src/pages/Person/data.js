@@ -2,6 +2,7 @@ const data = {
     'Lana': {
         name: 'Lana Del Rey',
         description: 'Elizabeth Woolridge Grant (born June 21, 1985), known professionally as Lana Del Rey, is an American singer-songwriter. Her music is noted for its cinematic quality and exploration of tragic romance, glamour, and melancholia, containing references to contemporary pop culture and 1950s-1960s Americana.',
+        link: 'https://www.lanadelrey.com/',
         album: [
             { name: 'Blue Banisters', img: "https://media.pitchfork.com/photos/6138ee39215bf99770062ab2/1:1/w_600/Lana-Del-Rey-Blue-Banisters.jpeg", date: 2021 },
             { name: 'Chemtrails Over The Country Club', img: "https://media.pitchfork.com/photos/5ffde6ad50609aa314ba30ec/1:1/w_3000,h_3000,c_limit/Lana-Del-Rey-Chemtrails-Over-the-Country-Club.jpg", date: 2021 },
