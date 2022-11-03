@@ -8,11 +8,16 @@ export default function Person() {
 
     const artistName = useParams().name
 
+    const name = data[artistName].name
+    const description = data[artistName].description
+    const link = data[artistName].link
+    const album = data[artistName].album
+
     return (
         <>
-
-        < Artist name={data[artistName].name} description={data[artistName].description} link={data[artistName].link} />
-        < Albums album={data[artistName].album} />
+        
+        < Artist name={name} description={description} link={link} />
+        < Albums album={album} />
 
         </>
     )
