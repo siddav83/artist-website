@@ -4,7 +4,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 export default function Artists() {
   return (
     <>
-      <h1>List of Artists!</h1>
+      <h1>Artists</h1>
       <br/>
       <NavLink to='lana'>Lana Del Rey</NavLink>
       <br/>
