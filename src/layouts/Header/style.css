@@ -4,7 +4,7 @@ ul {
     list-style: none;
 }
 
-a {
+.header a {
     text-decoration: none;
     padding: 17px;
     margin-left: 15px;

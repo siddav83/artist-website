@@ -12,9 +12,9 @@ export default function Header() {
 
   return (
     <>
+    
+      <BackButton />
     <div className="header">
-    <BackButton />
-
         <ul>
           <li><NavLink className={activeClass} to='/'>Home</NavLink></li>
           <li><NavLink className={activeClass} to='/artists'>Artists</NavLink></li>

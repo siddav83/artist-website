@@ -10,16 +10,16 @@ svg {
     margin-right: 10px;
 }
 
-button {
+.btn {
     padding: 7px;
     font-size: 15px;
     background-color: white;
     border-radius: 10px;
     border: 0;
-    position: relative;
-    right: 500px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
 }
-
-button:hover {
+.btn:hover {
     background-color: pink;
 }
