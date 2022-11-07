@@ -1,7 +1,8 @@
 import React from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet, useLocation } from 'react-router-dom';
 
 export default function Artists() {
+  const location = useLocation();
   return (
     <>
       <h1>Artists</h1>
@@ -10,7 +11,7 @@ export default function Artists() {
       <br/>
       <NavLink to='robyn'>Robyn</NavLink>
       <br/>
-      <Outlet />
+      <Outlet key={location.pathname} />
     </>
   )
 }
